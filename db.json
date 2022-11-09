@@ -1,18 +1,34 @@
 {
   "packages": [
     {
-      "id": 1,
-      "name": "Name",
-      "status": "I",
-      "statusName": "Ingresado",
-      "location": "1.0.0.0"
+      "name": "Primera",
+      "status": "E",
+      "statusName": "Sent",
+      "location": {
+        "lat": 41.88750712826687,
+        "lng": -87.6322750529785
+      },
+      "id": 1
     },
     {
-      "name": "Name 2",
-      "status": "I",
-      "statusName": "Ingresado",
-      "location": "1.0.0.0.2",
+      "name": "Segunda",
+      "status": "E",
+      "statusName": "Sent",
+      "location": {
+        "lat": 41.883237219845654,
+        "lng": -87.6405143737793
+      },
       "id": 2
+    },
+    {
+      "name": "Tercera",
+      "status": "I",
+      "statusName": "Registed",
+      "location": {
+        "lat": 41.885736258542146,
+        "lng": -87.6311165105751
+      },
+      "id": 3
     }
   ]
 }
